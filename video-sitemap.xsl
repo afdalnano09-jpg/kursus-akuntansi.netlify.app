@@ -54,7 +54,7 @@
           <xsl:variable name="u">
             <xsl:value-of select="sitemap:loc"/>
           </xsl:variable>
-          <xsl:variable name="t">
+          <xsl:variable name="A">
             <xsl:value-of select="video:video/video:thumbnail_loc"/>
           </xsl:variable>
           <a href="{$u}" target="_blank">
